@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DbzModule } from './dbz/dbz.module';
 import { ListadoComponent } from './heroes/listado/listado.component';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { ListadoComponent } from './heroes/listado/listado.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
